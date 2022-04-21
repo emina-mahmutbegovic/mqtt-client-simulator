@@ -1,0 +1,25 @@
+{
+  "name": "mqtt-simulator-new",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts"
+  },
+  "author": "Emina Mahmutbegovic",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^3.6.7",
+    "axios": "^0.26.1",
+    "config": "^3.3.7",
+    "dotenv": "^16.0.0",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.5.5",
+    "ts-node-dev": "^1.1.8",
+    "type-graphql": "^1.1.1",
+    "typedi": "^0.10.0"
+  },
+  "devDependencies": {
+    "@types/config": "^0.0.41"
+  }
+}
