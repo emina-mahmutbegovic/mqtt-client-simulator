@@ -56,6 +56,8 @@ Input
   }
 }
 
+```
+
 ### Disconnect
 Can be used for ending an existing connection. Takes existing cliendId as an input parameter. Returns connected (boolean). Returns false if the client was successfully disconnected.
 
